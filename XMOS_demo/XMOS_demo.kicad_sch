@@ -5,8 +5,132 @@
 	(uuid "0a855fb0-ca19-4770-811e-70d8770d7fdd")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fc795d-76dd-4fba-b721-766ac5b8d5cc")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be11fed5-3d20-4de3-99f5-cd2dd1cc1475")
+	)
 	(sheet
-		(at 127 76.2)
+		(at 203.2 96.52)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ad88a15-386f-4052-8899-c737373d7f63")
+		(property "Sheetname" "USB"
+			(at 203.2 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 203.2 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBD+" bidirectional
+			(at 203.2 109.22 180)
+			(uuid "54d760ab-2843-4b24-9769-848931c93d52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD-" bidirectional
+			(at 203.2 106.68 180)
+			(uuid "c024e454-f172-42a8-a345-72b85c96717d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 60.96)
+		(size 27.94 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13d4ac51-413b-4f8b-9448-517b4883a5ce")
+		(property "Sheetname" "POWER SUPPLY"
+			(at 203.2 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 203.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 76.2)
 		(size 35.56 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +146,7 @@
 		)
 		(uuid "e3dab0b8-42bf-48dc-b104-bdc70861b3a4")
 		(property "Sheetname" "MCU"
-			(at 127 75.4884 0)
+			(at 116.84 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +155,32 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 127 112.3446 0)
+			(at 116.84 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USBD+" bidirectional
+			(at 152.4 109.22 0)
+			(uuid "3bdb8934-f1e7-4482-91ee-7922091783d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBD-" bidirectional
+			(at 152.4 106.68 0)
+			(uuid "3ec962b7-d3c9-4205-a07c-d6519a38d50c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
