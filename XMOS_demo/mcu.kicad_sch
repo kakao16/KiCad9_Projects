@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0e9a1382-c866-4bab-ad78-d92ee3b8c75d")
 	(paper "A4")
+	(title_block
+		(title "USB Sound Card MCU")
+		(date "2026-03-29")
+		(rev "0.1")
+		(company "AGH University")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -1134,6 +1140,15 @@
 					(hide yes)
 				)
 			)
+			(property "MPN" "20021511-00020T4LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "XTAG,XTAG4,XMOS,debug,xSYS2"
 				(at 0 0 0)
 				(effects
@@ -1517,6 +1532,16 @@
 						(type background)
 					)
 				)
+				(text "XTAG4"
+					(at 7.874 -30.48 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(thickness 0.3048)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1542,7 +1567,7 @@
 				)
 			)
 			(property "Footprint" "_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
-				(at 30.988 -35.306 0)
+				(at 30.734 -58.42 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1551,7 +1576,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.xmos.com/documentation/XM-014429-PC/pdf/XU316-1024-QF60B.pdf"
-				(at 44.704 -38.1 0)
+				(at 44.45 -60.96 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1561,6 +1586,15 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "XU316-1024-QF60B-C24"
+				(at 15.494 -63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1940,6 +1974,16 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "SUPPPLY"
+					(at 17.78 -24.384 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(thickness 0.3048)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -2569,6 +2613,112 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 11.43 -12.7) (xy 11.43 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -17.78) (xy 11.43 -30.48) (xy 10.16 -30.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -8.89) (xy 16.51 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -13.97) (xy 16.51 -22.86) (xy 17.78 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -38.1) (xy 16.51 -27.94) (xy 17.78 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -43.18) (xy 16.51 -53.34) (xy 17.78 -53.34)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "I/O"
+					(at 8.89 -41.91 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(thickness 0.3048)
+							(bold yes)
+						)
+					)
+				)
+				(text "IO-L"
+					(at 11.43 -15.24 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "IO-T"
+					(at 16.51 -11.43 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "IO-R"
+					(at 16.51 -40.64 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(symbol "XU316-1024-QF60B_3_0"
 				(pin input line
@@ -2737,13 +2887,23 @@
 			(symbol "XU316-1024-QF60B_3_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 25.4 -12.7)
+					(end 25.4 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "PERIPHERIALS"
+					(at 13.97 -14.986 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(thickness 0.3048)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -4230,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 76.2) (xy 246.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158901ba-f0ce-44f1-a32a-e07b86856268")
+	)
+	(wire
+		(pts
 			(xy 223.52 45.72) (xy 251.46 45.72)
 		)
 		(stroke
@@ -4507,6 +4677,16 @@
 			(type default)
 		)
 		(uuid "34b5e115-6a08-419c-b51a-40dd31b7abe2")
+	)
+	(wire
+		(pts
+			(xy 236.22 78.74) (xy 246.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375986b2-cfe9-45ab-90c9-a3286f425215")
 	)
 	(wire
 		(pts
@@ -4860,6 +5040,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 73.66) (xy 246.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632bbf57-87e5-4361-aa6e-efea727dac57")
+	)
+	(wire
+		(pts
 			(xy 142.24 25.4) (xy 137.16 25.4)
 		)
 		(stroke
@@ -4907,6 +5097,16 @@
 			(type default)
 		)
 		(uuid "67c192c6-f62a-4f98-9adf-19e016336084")
+	)
+	(wire
+		(pts
+			(xy 223.52 71.12) (xy 246.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686106b1-6f26-4577-8449-8b99893bbb75")
 	)
 	(wire
 		(pts
@@ -5170,16 +5370,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 245.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91aaf96d-6e9c-465a-8037-ac109e05c85d")
-	)
-	(wire
-		(pts
 			(xy 97.79 127) (xy 100.33 127)
 		)
 		(stroke
@@ -5327,16 +5517,6 @@
 			(type default)
 		)
 		(uuid "a5336419-3f4d-4774-8ce5-7782d9d324d8")
-	)
-	(wire
-		(pts
-			(xy 223.52 71.12) (xy 245.11 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5358181-7c8a-45e0-a98a-c669a50b8145")
 	)
 	(wire
 		(pts
@@ -5500,16 +5680,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 245.11 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c562238b-b67a-452b-b614-a63e017a9483")
-	)
-	(wire
-		(pts
 			(xy 223.52 43.18) (xy 259.08 43.18)
 		)
 		(stroke
@@ -5547,16 +5717,6 @@
 			(type default)
 		)
 		(uuid "cd742f09-566b-42fe-a03b-34e4787709e3")
-	)
-	(wire
-		(pts
-			(xy 223.52 73.66) (xy 245.11 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce8dab77-b8e3-47a0-bf5c-4e108408b507")
 	)
 	(wire
 		(pts
@@ -6003,16 +6163,18 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "47205028-d7c8-467c-af40-1d0be1a75df0")
 	)
-	(label "XL0OUT0"
+	(label "XL0_OUT0"
 		(at 41.91 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify left bottom)
 		)
@@ -6049,10 +6211,11 @@
 		(uuid "844a0f78-e1d7-4705-93a0-d9524a76907f")
 	)
 	(label "XL0_OUT1"
-		(at 245.11 76.2 180)
+		(at 246.38 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify right bottom)
 		)
@@ -6078,11 +6241,12 @@
 		)
 		(uuid "a3f71f6b-7d5c-414f-9e20-84e9d0a71b30")
 	)
-	(label "XL0OUT0"
-		(at 245.11 78.74 180)
+	(label "XL0_OUT0"
+		(at 246.38 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify right bottom)
 		)
@@ -6093,6 +6257,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify left bottom)
 		)
@@ -6113,26 +6278,29 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "c3ec10eb-162d-4f51-aaa7-9eb05c372deb")
 	)
 	(label "XL0_IN1"
-		(at 245.11 71.12 180)
+		(at 246.38 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify right bottom)
 		)
 		(uuid "eb0fef9a-5be3-4784-b1e5-832cebd422d9")
 	)
 	(label "XL0_IN0"
-		(at 245.11 73.66 180)
+		(at 246.38 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 0 1)
 			)
 			(justify right bottom)
 		)
@@ -8572,7 +8740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Package_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
+		(property "Footprint" "_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
 			(at 195.58 27.94 0)
 			(effects
 				(font
@@ -8592,6 +8760,15 @@
 		)
 		(property "Description" ""
 			(at 195.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XU316-1024-QF60B-C24"
+			(at 211.074 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Package_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
+		(property "Footprint" "_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
 			(at 134.62 127 0)
 			(effects
 				(font
@@ -10045,6 +10222,15 @@
 		)
 		(property "Description" ""
 			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XU316-1024-QF60B-C24"
+			(at 150.114 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Package_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
+		(property "Footprint" "_QFN:QFN-60_7x7mm_P0.4mm_EP_ThermalVias_PowerBars"
 			(at 104.14 25.4 0)
 			(effects
 				(font
@@ -10621,6 +10807,15 @@
 		)
 		(property "Description" ""
 			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XU316-1024-QF60B-C24"
+			(at 119.634 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

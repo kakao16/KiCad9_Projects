@@ -4,29 +4,35 @@
 	(generator_version "9.0")
 	(uuid "0a855fb0-ca19-4770-811e-70d8770d7fdd")
 	(paper "A4")
+	(title_block
+		(title "USB Sound Card Top Level")
+		(date "2026-03-29")
+		(rev "0.1")
+		(company "AGH University")
+	)
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 203.2 106.68)
+			(xy 107.95 109.22) (xy 116.84 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96fc795d-76dd-4fba-b721-766ac5b8d5cc")
+		(uuid "969c523c-a795-47f9-91c2-0d764eb0519e")
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 203.2 109.22)
+			(xy 107.95 106.68) (xy 116.84 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be11fed5-3d20-4de3-99f5-cd2dd1cc1475")
+		(uuid "b096a5fc-0c21-4329-b73b-92460e8197cf")
 	)
 	(sheet
-		(at 203.2 96.52)
+		(at 80.01 96.52)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42,7 +48,7 @@
 		)
 		(uuid "0ad88a15-386f-4052-8899-c737373d7f63")
 		(property "Sheetname" "USB"
-			(at 203.2 95.8084 0)
+			(at 80.01 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +57,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 203.2 112.3446 0)
+			(at 80.01 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,23 +66,23 @@
 			)
 		)
 		(pin "USBD+" bidirectional
-			(at 203.2 109.22 180)
+			(at 107.95 109.22 0)
 			(uuid "54d760ab-2843-4b24-9769-848931c93d52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USBD-" bidirectional
-			(at 203.2 106.68 180)
+			(at 107.95 106.68 0)
 			(uuid "c024e454-f172-42a8-a345-72b85c96717d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -88,7 +94,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 60.96)
+		(at 80.01 55.88)
 		(size 27.94 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -104,7 +110,7 @@
 		)
 		(uuid "13d4ac51-413b-4f8b-9448-517b4883a5ce")
 		(property "Sheetname" "POWER SUPPLY"
-			(at 203.2 60.2484 0)
+			(at 80.01 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,7 +119,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 203.2 89.4846 0)
+			(at 80.01 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,6 +131,90 @@
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 76.2)
+		(size 38.1 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b9c48a5-7a99-4cae-9f94-704bf713d5d7")
+		(property "Sheetname" "Codec"
+			(at 162.56 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 162.56 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 76.2)
+		(size 30.48 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca")
+		(property "Sheetname" "Audio Out"
+			(at 208.28 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_out.kicad_sch"
+			(at 208.28 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(page "5")
 				)
 			)
 		)
@@ -164,23 +254,23 @@
 			)
 		)
 		(pin "USBD+" bidirectional
-			(at 152.4 109.22 0)
+			(at 116.84 109.22 180)
 			(uuid "3bdb8934-f1e7-4482-91ee-7922091783d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "USBD-" bidirectional
-			(at 152.4 106.68 0)
+			(at 116.84 106.68 180)
 			(uuid "3ec962b7-d3c9-4205-a07c-d6519a38d50c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances

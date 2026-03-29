@@ -649,6 +649,14 @@
     [
       "13d4ac51-413b-4f8b-9448-517b4883a5ce",
       "POWER SUPPLY"
+    ],
+    [
+      "82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca",
+      "Audio Out"
+    ],
+    [
+      "4b9c48a5-7a99-4cae-9f94-704bf713d5d7",
+      "Codec"
     ]
   ],
   "text_variables": {}
