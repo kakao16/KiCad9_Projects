@@ -1927,7 +1927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-3012S"
+		(property "Footprint" "_Inductor_SMD:L_Abracon_ASPI-3012S_3D_Simple"
 			(at 115.57 53.34 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Diodes_SO-8EP"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 96.52 44.45 0)
 			(effects
 				(font

@@ -2658,7 +2658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Max Voltage" "10V"
+		(property "Max Voltage" "16V"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -3143,7 +3143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Max Voltage" "10V"
+		(property "Max Voltage" "16V"
 			(at 152.4 81.28 0)
 			(effects
 				(font
@@ -3231,7 +3231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Max Voltage" "10V"
+		(property "Max Voltage" "16V"
 			(at 170.18 81.28 0)
 			(effects
 				(font
