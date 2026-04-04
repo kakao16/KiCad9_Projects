@@ -4265,18 +4265,18 @@
 		(dnp no)
 		(uuid "6f4dd6a3-d284-47ef-aee3-3ddb3f4f1fc0")
 		(property "Reference" "R29"
-			(at 115.316 58.42 90)
+			(at 113.538 57.404 0)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "0R"
-			(at 116.84 58.42 90)
+			(at 113.03 59.436 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
