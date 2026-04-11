@@ -5708,7 +5708,7 @@
 		(uuid "b0222431-f210-47d9-b760-0a8b84f394e0")
 	)
 	(junction
-		(at 269.24 53.34)
+		(at 269.24 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b40471ba-c4bd-4ade-9e20-69821444014a")
@@ -5828,7 +5828,7 @@
 		(uuid "f7f79ebe-ab6f-4c8c-94a9-b5d5c7b01bf2")
 	)
 	(junction
-		(at 276.86 53.34)
+		(at 276.86 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8d904e6-c210-4824-9e59-34b9e931b63d")
@@ -6139,7 +6139,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 33.02) (xy 261.62 35.56)
+			(xy 261.62 52.07) (xy 261.62 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6159,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 40.64) (xy 269.24 43.18)
+			(xy 269.24 59.69) (xy 269.24 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7209,7 +7209,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 50.8) (xy 276.86 53.34)
+			(xy 276.86 69.85) (xy 276.86 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7239,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 27.94) (xy 276.86 35.56)
+			(xy 276.86 46.99) (xy 276.86 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7429,7 +7429,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 40.64) (xy 261.62 43.18)
+			(xy 261.62 59.69) (xy 261.62 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7589,7 +7589,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 50.8) (xy 269.24 53.34)
+			(xy 269.24 69.85) (xy 269.24 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7599,7 +7599,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 35.56) (xy 269.24 30.48)
+			(xy 269.24 54.61) (xy 269.24 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7729,7 +7729,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 53.34) (xy 276.86 55.88)
+			(xy 276.86 72.39) (xy 276.86 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7809,7 +7809,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 40.64) (xy 276.86 43.18)
+			(xy 276.86 59.69) (xy 276.86 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7949,7 +7949,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 53.34) (xy 261.62 53.34)
+			(xy 269.24 72.39) (xy 261.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7979,7 +7979,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 50.8) (xy 261.62 53.34)
+			(xy 261.62 69.85) (xy 261.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8159,7 +8159,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 53.34) (xy 276.86 53.34)
+			(xy 269.24 72.39) (xy 276.86 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8400,7 +8400,7 @@
 		(uuid "6ed6f199-4ecc-4c84-b14f-0c44a24aa10a")
 	)
 	(label "LED2"
-		(at 269.24 30.48 180)
+		(at 269.24 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8430,7 +8430,7 @@
 		(uuid "7d31a9f7-8ab1-41b6-aaab-e35bf0f1867c")
 	)
 	(label "LED3"
-		(at 261.62 33.02 180)
+		(at 261.62 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8534,7 +8534,7 @@
 		(uuid "c9782f86-d52f-42aa-948e-6a600a60bae3")
 	)
 	(label "LED1"
-		(at 276.86 27.94 180)
+		(at 276.86 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8628,7 +8628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "016d5b85-d9d8-46df-9d19-eeb993186e7b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 170.18 162.56 0)
 			(effects
 				(font
@@ -8678,7 +8678,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8780,7 +8780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0974465b-52ac-40f7-b28d-a903cdc8004e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -8830,7 +8830,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8845,7 +8845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a774513-6afd-4183-8615-67498279b31e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 27.94 125.73 0)
 			(effects
 				(font
@@ -8895,7 +8895,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8910,7 +8910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cf994d9-eea4-4b48-9c5d-3980b0cf983f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR016"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -8960,7 +8960,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR09")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8975,7 +8975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d722b20-7dd4-4d00-9f51-3651e05f4a79")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR03"
 			(at 172.72 41.91 0)
 			(effects
 				(font
@@ -9025,7 +9025,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR057")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9033,15 +9033,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 261.62 38.1 0)
+		(at 261.62 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "144bc04d-c594-46a8-af0e-ed030b976b38")
-		(property "Reference" "R10"
-			(at 264.668 37.084 0)
+		(property "Reference" "R1"
+			(at 264.668 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +9049,7 @@
 			)
 		)
 		(property "Value" "680R"
-			(at 265.176 39.116 0)
+			(at 265.176 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +9057,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 261.62 38.1 0)
+			(at 261.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 38.1 0)
+			(at 261.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +9075,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 261.62 38.1 0)
+			(at 261.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9092,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9107,7 +9107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18647906-fde5-44b9-818f-48cd6c78c52e")
-		(property "Reference" "C9"
+		(property "Reference" "C19"
 			(at 39.624 135.89 0)
 			(effects
 				(font
@@ -9179,7 +9179,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C9")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9195,7 +9195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "197efdb8-77b0-4a5a-938a-d9c69a717525")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR029"
 			(at 88.9 166.37 0)
 			(effects
 				(font
@@ -9245,7 +9245,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR03")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d8b6707-1fd4-4d3e-9dc9-0d618901f010")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 67.564 64.77 0)
 			(effects
 				(font
@@ -9332,7 +9332,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9347,7 +9347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e32f69f-ffda-4848-82ad-a49eb78fc4f1")
-		(property "Reference" "C51"
+		(property "Reference" "C1"
 			(at 163.322 35.306 90)
 			(effects
 				(font
@@ -9419,7 +9419,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C51")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9434,7 +9434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20d57237-4493-4e21-b43d-74038af35d41")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9492,15 +9492,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 261.62 46.99 90)
+		(at 261.62 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "24747c2c-e952-495d-8649-99b70682ee1c")
-		(property "Reference" "D2"
-			(at 263.398 45.72 90)
+		(property "Reference" "D1"
+			(at 263.398 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +9509,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 263.398 48.26 90)
+			(at 263.398 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +9518,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 261.62 46.99 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 46.99 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9536,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 261.62 46.99 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9545,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 261.62 46.99 0)
+			(at 261.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9562,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9577,7 +9577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "255b3dc7-7713-43d9-98af-e4b4a2ea8ee7")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 16.764 64.77 0)
 			(effects
 				(font
@@ -9649,7 +9649,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9664,7 +9664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eb5ac1b-4785-47d3-ac2c-e7b5cd882e6b")
-		(property "Reference" "C12"
+		(property "Reference" "C17"
 			(at 82.804 97.79 0)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9751,7 +9751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f8f9129-b715-4133-bdfa-1bf7d747fae5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 81.28 62.23 0)
 			(effects
 				(font
@@ -9801,7 +9801,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9816,8 +9816,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fb0cb2b-6eda-4374-be68-ecc5525775b1")
-		(property "Reference" "R9"
-			(at 172.466 138.684 0)
+		(property "Reference" "R17"
+			(at 173.228 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +9868,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9883,7 +9883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33503e3b-9aa4-417d-a6fa-0fdcb54a5ce5")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 106.68 122.936 90)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9950,7 +9950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390df690-aedb-4d96-8a45-820801a508eb")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 47.244 64.77 0)
 			(effects
 				(font
@@ -10022,7 +10022,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10038,7 +10038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b118608-62c6-4e6c-bf6e-993a6719d717")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR05"
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -10088,7 +10088,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR060")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10103,7 +10103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eeba436-ef88-4269-8752-37315ba220ec")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 121.92 130.556 90)
 			(effects
 				(font
@@ -10155,7 +10155,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10170,7 +10170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4139e4e6-8120-40f2-af6d-e5bc4d16b2fa")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR07"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -10220,7 +10220,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR051")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10228,15 +10228,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 276.86 46.99 90)
+		(at 276.86 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "442267b0-a119-46ec-be05-9ac3b27fdaac")
-		(property "Reference" "D4"
-			(at 278.638 45.72 90)
+		(property "Reference" "D3"
+			(at 278.638 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10245,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 278.638 48.26 90)
+			(at 278.638 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10254,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 276.86 46.99 0)
+			(at 276.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 46.99 0)
+			(at 276.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10272,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 276.86 46.99 0)
+			(at 276.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,7 +10281,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 276.86 46.99 0)
+			(at 276.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +10298,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10313,7 +10313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ad65fb0-9bbc-4646-9a5f-6b41b1bb0b22")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR02"
 			(at 127 41.91 0)
 			(effects
 				(font
@@ -10363,7 +10363,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR056")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10455,7 +10455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e427d2d-b795-4cf3-acd3-cc22fde223e9")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -10505,7 +10505,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f2e821c-8e89-4e52-9dcf-7e1cc44f3e35")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 77.724 64.77 0)
 			(effects
 				(font
@@ -10592,7 +10592,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10607,7 +10607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50a5c07b-1325-480b-b885-10c67788df67")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR04"
 			(at 198.12 41.91 0)
 			(effects
 				(font
@@ -10657,7 +10657,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR059")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50d29319-baaf-4e6a-a9fa-103525b2d571")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR018"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -10722,7 +10722,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR1")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52dc81bb-0afe-40d2-b47c-13aa99bef331")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 236.22 94.996 90)
 			(effects
 				(font
@@ -10789,7 +10789,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10804,7 +10804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "580d5bff-aaa8-4de8-8d89-e273bb7e98a1")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR01"
 			(at 116.84 41.91 0)
 			(effects
 				(font
@@ -10854,7 +10854,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR053")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10869,7 +10869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59b2616e-e89f-441e-93f5-fc0f6211e311")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 143.764 90.17 0)
 			(effects
 				(font
@@ -10941,7 +10941,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10956,7 +10956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b04b5da-36bb-4af1-adad-fc29f5cb84c7")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR06"
 			(at 116.84 52.07 0)
 			(effects
 				(font
@@ -11006,7 +11006,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR055")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11022,7 +11022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c3277a4-4009-41d3-9a49-d92d98111ed1")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 173.736 44.196 0)
 			(effects
 				(font
@@ -11094,7 +11094,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11109,7 +11109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eeda935-479d-4bbe-9352-7c55c16b7203")
-		(property "Reference" "C19"
+		(property "Reference" "C13"
 			(at 153.924 67.31 0)
 			(effects
 				(font
@@ -11181,7 +11181,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C19")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11196,7 +11196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60ad0bc5-c95d-451d-9ba2-806d7cc73315")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 180.34 162.56 0)
 			(effects
 				(font
@@ -11246,7 +11246,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11261,7 +11261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d81918-a7b4-4f49-8cd0-fb358b03eb45")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 241.3 97.536 90)
 			(effects
 				(font
@@ -11313,7 +11313,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11328,7 +11328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6914be1a-544c-4d8e-bd13-5e0885b19642")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 37.084 64.77 0)
 			(effects
 				(font
@@ -11400,7 +11400,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11416,7 +11416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a5cb39b-f51b-443c-871c-f8c98e8715be")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 115.57 140.9699 0)
 			(effects
 				(font
@@ -11483,7 +11483,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11498,7 +11498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b375876-310d-4c48-b8ac-e04d09da7d1a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -11548,7 +11548,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR012")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11898,15 +11898,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 55.88 0)
+		(at 276.86 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "77e49a18-c57e-44cd-a95a-75e630e86a08")
-		(property "Reference" "#PWR026"
-			(at 276.86 62.23 0)
+		(property "Reference" "#PWR08"
+			(at 276.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 59.436 0)
+			(at 276.86 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +11923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 55.88 0)
+			(at 276.86 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +11932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 55.88 0)
+			(at 276.86 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +11941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 55.88 0)
+			(at 276.86 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +11955,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR026")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11970,7 +11970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a7847e2-82da-404f-9584-5c5194157f7e")
-		(property "Reference" "R5"
+		(property "Reference" "R15"
 			(at 127 133.096 90)
 			(effects
 				(font
@@ -12022,7 +12022,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R5")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12037,7 +12037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "800e06e3-4c8e-4084-944b-9e91dde3f52e")
-		(property "Reference" "R42"
+		(property "Reference" "R8"
 			(at 251.968 72.644 0)
 			(effects
 				(font
@@ -12089,7 +12089,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R42")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12104,7 +12104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "829a893c-0061-424e-9a1a-955a18a9171e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR022"
 			(at 38.1 133.35 0)
 			(effects
 				(font
@@ -12154,7 +12154,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR016")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12169,7 +12169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "849047ae-cdf8-4bbe-a72b-2e1f2f714d87")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 147.32 64.77 0)
 			(effects
 				(font
@@ -12219,7 +12219,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12227,15 +12227,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 269.24 38.1 0)
+		(at 269.24 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "87891be1-2bef-475b-81ee-3e73019fd6ca")
-		(property "Reference" "R11"
-			(at 272.288 37.084 0)
+		(property "Reference" "R2"
+			(at 272.288 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,7 +12243,7 @@
 			)
 		)
 		(property "Value" "680R"
-			(at 272.796 39.116 0)
+			(at 272.796 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12251,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 269.24 38.1 0)
+			(at 269.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +12260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 38.1 0)
+			(at 269.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +12269,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 269.24 38.1 0)
+			(at 269.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12286,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12294,15 +12294,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 276.86 38.1 0)
+		(at 276.86 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "87b9df16-7b5a-404a-b528-500670284fdc")
-		(property "Reference" "R12"
-			(at 279.908 37.084 0)
+		(property "Reference" "R3"
+			(at 279.908 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,7 +12310,7 @@
 			)
 		)
 		(property "Value" "680R"
-			(at 280.416 39.116 0)
+			(at 280.416 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12318,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 276.86 38.1 0)
+			(at 276.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12327,7 +12327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 38.1 0)
+			(at 276.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12336,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 276.86 38.1 0)
+			(at 276.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12353,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12368,7 +12368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "882b687a-aca6-4006-b5b0-8a49ddfc3fe6")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 153.924 90.17 0)
 			(effects
 				(font
@@ -12440,7 +12440,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12455,7 +12455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88d58fb9-b2c5-4de2-99c5-d3b8ac6e4feb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR011"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -12505,7 +12505,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR065")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12520,7 +12520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89614a48-623e-445c-942e-bfb9385ef32e")
-		(property "Reference" "R37"
+		(property "Reference" "R5"
 			(at 195.072 42.164 0)
 			(effects
 				(font
@@ -12572,7 +12572,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R37")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12587,7 +12587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c81d776-a2cf-4170-a46e-4f807c6b21a9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -12637,7 +12637,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12652,7 +12652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ffd82d7-8f0d-4216-9d4a-ef6ab0385529")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 57.404 64.77 0)
 			(effects
 				(font
@@ -12724,7 +12724,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12739,7 +12739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9706944e-d956-4aec-bff1-be42fe7e713f")
-		(property "Reference" "C16"
+		(property "Reference" "C2"
 			(at 133.604 49.53 0)
 			(effects
 				(font
@@ -12811,7 +12811,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C16")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12826,7 +12826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "996a34d8-9ad2-45f8-bd3e-5e681ddc0573")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR024"
 			(at 38.1 148.59 0)
 			(effects
 				(font
@@ -12876,7 +12876,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR011")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12891,7 +12891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a255b187-0b90-4008-b038-69666b990228")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 116.84 128.016 90)
 			(effects
 				(font
@@ -12943,7 +12943,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12958,7 +12958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3278e71-88c3-47d8-bb9c-e8b492eb9866")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 133.604 90.17 0)
 			(effects
 				(font
@@ -13030,7 +13030,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13045,7 +13045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6eca7ad-076a-4242-a3c9-4f4ce01acd37")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR025"
 			(at 106.68 156.21 0)
 			(effects
 				(font
@@ -13095,7 +13095,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR05")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13110,7 +13110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae48170a-d911-4e37-b2e8-02faa6d9317d")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 111.76 125.476 90)
 			(effects
 				(font
@@ -13162,7 +13162,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13177,7 +13177,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b0d068ac-0e0a-4446-b47d-da2c71d846ec")
-		(property "Reference" "R36"
+		(property "Reference" "R6"
 			(at 121.92 49.276 90)
 			(effects
 				(font
@@ -13229,7 +13229,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R36")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13244,7 +13244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2a8d085-6ba7-4b80-a567-50b402b59ba5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 27.94 148.59 0)
 			(effects
 				(font
@@ -13294,7 +13294,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13309,7 +13309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcccb589-259a-4189-98d6-009d19556d2a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -13359,7 +13359,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13633,7 +13633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c04e5cd7-9e42-45bf-a24f-895260c91803")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 87.884 64.77 0)
 			(effects
 				(font
@@ -13705,7 +13705,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13720,7 +13720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4efe4a2-ab6d-4701-9b9f-e3b4ef8cf62b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR013"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -13770,7 +13770,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR058")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13785,7 +13785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d62151ac-0699-4cb2-9133-41692f24e7a6")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR028"
 			(at 193.04 162.56 0)
 			(effects
 				(font
@@ -13835,7 +13835,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "#PWR021")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13938,7 +13938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1069eff-5b66-488a-b622-3c1763bccdf5")
-		(property "Reference" "R41"
+		(property "Reference" "R7"
 			(at 240.792 72.644 0)
 			(effects
 				(font
@@ -13990,7 +13990,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R41")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14005,7 +14005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1832c4d-4967-418a-8a76-6c138b8a8551")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 143.764 67.31 0)
 			(effects
 				(font
@@ -14077,7 +14077,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14358,7 +14358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea34452e-454c-40db-a40a-e08a0b2e69c3")
-		(property "Reference" "C10"
+		(property "Reference" "C18"
 			(at 29.464 135.89 0)
 			(effects
 				(font
@@ -14430,7 +14430,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C10")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -14438,15 +14438,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 269.24 46.99 90)
+		(at 269.24 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ece595e2-375e-41d0-b43a-b6c91f1e7ded")
-		(property "Reference" "D3"
-			(at 271.018 45.72 90)
+		(property "Reference" "D2"
+			(at 271.018 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14455,7 +14455,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.018 48.26 90)
+			(at 271.018 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +14464,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 269.24 46.99 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +14473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 46.99 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14482,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 269.24 46.99 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +14491,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 46.99 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14508,7 +14508,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14523,7 +14523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f015242f-3dfe-48c0-aa5c-f6d4503e3e02")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 187.198 136.398 90)
 			(effects
 				(font
@@ -14575,7 +14575,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14590,7 +14590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6fc24db-d276-4445-a0c9-b449ac11de4a")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 26.924 64.77 0)
 			(effects
 				(font
@@ -14662,7 +14662,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14807,7 +14807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc0e5044-c0ef-4ec9-9266-ce0abce14c52")
-		(property "Reference" "R35"
+		(property "Reference" "R4"
 			(at 121.92 39.116 90)
 			(effects
 				(font
@@ -14859,7 +14859,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "R35")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14874,7 +14874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff178d68-1f5b-4d26-b7fa-2d0d78a81b68")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 133.604 67.31 0)
 			(effects
 				(font
@@ -14946,7 +14946,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/e3dab0b8-42bf-48dc-b104-bdc70861b3a4"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
