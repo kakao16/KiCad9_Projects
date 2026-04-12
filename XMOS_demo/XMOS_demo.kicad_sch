@@ -512,6 +512,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad0692d-3a9f-434c-a466-504223eb72f9")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad42928-9abc-4b67-ab1c-6333d35d26bf")
+	)
+	(wire
+		(pts
 			(xy 66.04 127) (xy 66.04 129.54)
 		)
 		(stroke
@@ -529,6 +549,16 @@
 			(type default)
 		)
 		(uuid "32e1aa84-b624-479e-88d0-87683a0a7c35")
+	)
+	(wire
+		(pts
+			(xy 119.38 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457b262d-61a6-46f5-afb6-26e8c2586b8a")
 	)
 	(wire
 		(pts
@@ -562,6 +592,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b1b6ed-2a91-45a8-954b-3aa2f67935d4")
+	)
+	(wire
+		(pts
 			(xy 45.72 129.54) (xy 35.56 129.54)
 		)
 		(stroke
@@ -579,6 +619,16 @@
 			(type default)
 		)
 		(uuid "5cb8dbfc-26ab-4b5b-a626-d425729037b7")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c379b4d-5625-4d50-8ca1-10dc922c2201")
 	)
 	(wire
 		(pts
@@ -619,6 +669,26 @@
 			(type default)
 		)
 		(uuid "87444161-2137-4c0f-bab4-05eae5c5f061")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df3c9af-5ede-4ca0-862a-53a91374c84a")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc93c32-3c54-40f7-8de8-0efa9d651911")
 	)
 	(wire
 		(pts
@@ -679,6 +749,16 @@
 			(type default)
 		)
 		(uuid "ca27bbd1-5acf-4b2d-ac57-57e61c26c095")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2524f5d-3a7d-49a9-8597-7046fff5c3fa")
 	)
 	(wire
 		(pts
@@ -919,7 +999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb6b8a2-7f6f-4dc9-ab87-51b947e143ca")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR01"
 			(at 35.56 138.43 0)
 			(effects
 				(font
@@ -969,7 +1049,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "#PWR094")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1881,7 +1961,7 @@
 				(justify right)
 			)
 		)
-		(pin "CODEC_LRCK" input
+		(pin "I2S_ADC" output
 			(at 129.54 88.9 180)
 			(uuid "1f4f61e1-6c30-4d49-a27d-fe56e8170f7a")
 			(effects
@@ -1891,7 +1971,7 @@
 				(justify left)
 			)
 		)
-		(pin "CODEC_MCLK" input
+		(pin "MCLK" input
 			(at 129.54 86.36 180)
 			(uuid "3f26ef80-43a9-40bc-a83c-da17c48223aa")
 			(effects
@@ -1901,7 +1981,7 @@
 				(justify left)
 			)
 		)
-		(pin "CODEC_SCLK" input
+		(pin "I2S_SCLK" input
 			(at 129.54 91.44 180)
 			(uuid "60e1f837-f18a-484f-8780-9a14c811d0f1")
 			(effects
@@ -1911,7 +1991,7 @@
 				(justify left)
 			)
 		)
-		(pin "CODEC_SDIN" input
+		(pin "I2S_DAC" input
 			(at 129.54 96.52 180)
 			(uuid "628182fc-93c6-42c7-be23-1ace4ee29e5e")
 			(effects
@@ -1921,7 +2001,7 @@
 				(justify left)
 			)
 		)
-		(pin "CODEC_SDOUT" output
+		(pin "I2S_LRCK" input
 			(at 129.54 93.98 180)
 			(uuid "acbf7bba-35dd-443b-9808-eea2f42990d6")
 			(effects
@@ -2208,6 +2288,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CODEC_~{RST}" output
+			(at 119.38 78.74 0)
+			(uuid "1ff068d4-6df6-495c-9e5a-e08031b3d969")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_ADC" input
+			(at 119.38 88.9 0)
+			(uuid "95282d46-eba1-4164-b007-cfd161de1fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_SCLK" output
+			(at 119.38 91.44 0)
+			(uuid "507635e5-8cc4-4006-b38d-a65f87c3b321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_DAC" output
+			(at 119.38 96.52 0)
+			(uuid "4852f63d-973f-4102-94a5-0782e1682795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_LRCK" output
+			(at 119.38 93.98 0)
+			(uuid "e6dff045-eed1-4760-b8c3-661ffbbaf59c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCLK" output
+			(at 119.38 86.36 0)
+			(uuid "3907d3fb-2b36-4566-903d-7261aa04c411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 119.38 106.68 0)
+			(uuid "ab05ac54-1da0-47c4-8e5d-f3f894863c89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 119.38 109.22 0)
+			(uuid "b48519c9-7d9f-4a9f-9909-a2170e999513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
