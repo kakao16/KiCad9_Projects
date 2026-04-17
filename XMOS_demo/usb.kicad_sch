@@ -2176,6 +2176,12 @@
 		(uuid "b80afb7a-5e39-4203-a684-71342a19d332")
 	)
 	(junction
+		(at 96.52 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf6c9c52-03d0-4c0e-803a-2e154110717b")
+	)
+	(junction
 		(at 104.14 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2539,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 116.84) (xy 96.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f16dae-cc7f-4f16-b6dd-2073da973c52")
+	)
+	(wire
+		(pts
 			(xy 101.6 48.26) (xy 101.6 58.42)
 		)
 		(stroke
@@ -2666,6 +2682,16 @@
 			(type default)
 		)
 		(uuid "d190405e-b706-43c6-897a-7777f4254275")
+	)
+	(wire
+		(pts
+			(xy 86.36 114.3) (xy 86.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2aea6c9-9c18-4ba3-b861-59054ed9df72")
 	)
 	(wire
 		(pts
@@ -3983,6 +4009,72 @@
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/0ad88a15-386f-4052-8899-c737373d7f63"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f664957-6acf-4a43-8f3a-e4faa9775e61")
+		(property "Reference" "#FLG08"
+			(at 86.36 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "102103bd-01fe-440e-aecb-34655eb46f21")
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/0ad88a15-386f-4052-8899-c737373d7f63"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
