@@ -118,27 +118,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
+			(property "Reference" "R"
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -163,7 +163,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Net tie, 2 pins"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -172,7 +172,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "net tie short"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -181,7 +181,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Net*Tie*"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -190,13 +190,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -204,11 +203,11 @@
 					)
 				)
 			)
-			(symbol "NetTie_2_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -224,9 +223,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -431,7 +430,7 @@
 	)
 	(text "TODO: add optional low pass filter"
 		(exclude_from_sim no)
-		(at 187.96 71.12 0)
+		(at 233.68 69.85 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -482,7 +481,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 175.26 78.74)
+			(xy 167.64 78.74) (xy 177.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +511,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 129.54 88.9)
+			(xy 99.06 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +521,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 129.54 91.44)
+			(xy 99.06 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 129.54 109.22)
+			(xy 99.06 109.22) (xy 129.54 109.22)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +561,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 175.26 83.82)
+			(xy 167.64 83.82) (xy 177.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +571,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 86.36) (xy 213.36 86.36)
+			(xy 200.66 86.36) (xy 213.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +591,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 129.54 93.98)
+			(xy 99.06 93.98) (xy 129.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -622,7 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 129.54 86.36)
+			(xy 99.06 86.36) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +631,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 81.28) (xy 175.26 81.28)
+			(xy 167.64 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 213.36 81.28)
+			(xy 200.66 81.28) (xy 213.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 175.26 86.36)
+			(xy 167.64 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 129.54 106.68)
+			(xy 99.06 106.68) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 129.54 96.52)
+			(xy 99.06 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +691,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 83.82 109.22)
+			(xy 58.42 109.22) (xy 63.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 106.68) (xy 83.82 106.68)
+			(xy 58.42 106.68) (xy 63.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 213.36 83.82)
+			(xy 182.88 83.82) (xy 213.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +741,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 213.36 78.74)
+			(xy 182.88 78.74) (xy 213.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +751,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 78.74) (xy 129.54 78.74)
+			(xy 99.06 78.74) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -791,33 +790,32 @@
 		(uuid "fca824be-4d65-4255-88b3-6a1b4decc63e")
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 177.8 78.74 0)
+		(lib_id "Device:R_Small")
+		(at 180.34 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0086bdef-239d-4a6b-b49d-4ecdf22edb56")
-		(property "Reference" "NT1"
-			(at 177.8 77.47 0)
+		(uuid "2b0240b2-cc67-4954-89c0-c93a74c1a1db")
+		(property "Reference" "R59"
+			(at 180.34 82.296 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "NetTie_2"
-			(at 177.8 76.2 0)
+		(property "Value" "0R"
+			(at 180.34 83.82 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 177.8 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 78.74 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,8 +832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
-			(at 177.8 78.74 0)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,15 +842,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "02455295-e726-404b-b236-ced2a4f9aaeb")
+			(uuid "abb5def5-7f5c-453d-b935-2ac1ff9cee77")
 		)
 		(pin "2"
-			(uuid "9bd37569-2e2a-4e4c-81d1-6b1716887fa9")
+			(uuid "125a55a5-7bf5-4218-abda-70bed98cfd18")
 		)
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "NT1")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -1123,142 +1121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 177.8 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e4b8c28-3532-49a6-9d9e-9e0b11667b10")
-		(property "Reference" "NT5"
-			(at 177.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 177.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10d71592-ed44-4f88-9613-bd9ca28a9860")
-		)
-		(pin "2"
-			(uuid "32896ce9-b543-4dd6-809c-929ab42bf798")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "NT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 177.8 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "87e2bc76-a1c8-4972-8f13-f0e5d75a5d13")
-		(property "Reference" "NT3"
-			(at 177.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56297c8d-43ed-48e0-aac6-bcf06d8c10e7")
-		)
-		(pin "2"
-			(uuid "0b939bf8-79b6-4e94-93d7-5b3b28a6337b")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 55.88 127 0)
 		(unit 1)
@@ -1320,6 +1182,140 @@
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 177.8 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeca1d51-4f6b-4020-856d-e9a434c604eb")
+		(property "Reference" "R56"
+			(at 177.8 107.696 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 177.8 109.22 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b70f221-d94e-4675-bc0c-16b5b53edba7")
+		)
+		(pin "2"
+			(uuid "2425d1e8-2b3a-4a68-b8ae-1d3474006677")
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 180.34 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "affbe436-7c47-476f-b868-ca33d77526fb")
+		(property "Reference" "R57"
+			(at 180.34 77.216 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 180.34 78.74 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a5a6c6-1fc5-4c78-ab97-49dd709a4e84")
+		)
+		(pin "2"
+			(uuid "df4e37e2-f723-49f2-a97e-f2169b0468c8")
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -1521,6 +1517,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 198.12 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e11fb76a-6d7b-4691-a52c-99f2b9b1cec0")
+		(property "Reference" "R60"
+			(at 198.12 84.836 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 198.12 86.36 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6d04b32-3476-4319-8a1e-62e57977a4ae")
+		)
+		(pin "2"
+			(uuid "7a110409-1dda-4df7-9c68-c3ed0d51b9a5")
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 86.36 144.78 0)
 		(unit 1)
@@ -1585,33 +1648,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 177.8 81.28 0)
+		(lib_id "Device:R_Small")
+		(at 198.12 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f1623015-fc2b-4539-9e3a-fb46a2624c87")
-		(property "Reference" "NT2"
-			(at 177.8 80.01 0)
+		(uuid "f71a4b8d-384d-494f-bfe6-38cf15ff2181")
+		(property "Reference" "R58"
+			(at 198.12 79.756 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "NetTie_2"
-			(at 177.8 78.74 0)
+		(property "Value" "0R"
+			(at 198.12 81.28 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 177.8 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 81.28 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,76 +1690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38d2ee40-6901-4a02-a217-cc1a95f53f68")
-		)
-		(pin "2"
-			(uuid "fe7025f3-1bca-49e0-b32d-6ceba37f8817")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 177.8 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbd27fd7-fdf6-45dd-8146-e346e61b6e87")
-		(property "Reference" "NT4"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 177.8 86.36 0)
+		(property "Description" "Resistor, small symbol"
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,22 +1700,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "da6715d5-c1a4-4328-aa64-5a0cf22c80a6")
+			(uuid "7c7e0c10-9941-456f-89a2-5c8830f19376")
 		)
 		(pin "2"
-			(uuid "fd447fcd-5650-4ea1-8e8f-1e39b48c0b14")
+			(uuid "4e488a81-fe26-48c1-be0b-cdb8e91fa53c")
 		)
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "NT4")
+					(reference "R58")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 101.6)
+		(at 34.29 101.6)
 		(size 24.13 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1738,7 +1732,7 @@
 		)
 		(uuid "0ad88a15-386f-4052-8899-c737373d7f63")
 		(property "Sheetname" "USB"
-			(at 50.8 100.8884 0)
+			(at 34.29 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1741,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 50.8 112.3446 0)
+			(at 34.29 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1750,7 @@
 			)
 		)
 		(pin "USBD+" bidirectional
-			(at 74.93 109.22 0)
+			(at 58.42 109.22 0)
 			(uuid "54d760ab-2843-4b24-9769-848931c93d52")
 			(effects
 				(font
@@ -1766,7 +1760,7 @@
 			)
 		)
 		(pin "USBD-" bidirectional
-			(at 74.93 106.68 0)
+			(at 58.42 106.68 0)
 			(uuid "c024e454-f172-42a8-a345-72b85c96717d")
 			(effects
 				(font
@@ -1784,7 +1778,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 35.56)
+		(at 63.5 35.56)
 		(size 35.56 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1801,7 +1795,7 @@
 		)
 		(uuid "13d4ac51-413b-4f8b-9448-517b4883a5ce")
 		(property "Sheetname" "POWER SUPPLY"
-			(at 83.82 34.8484 0)
+			(at 63.5 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1804,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 83.82 64.0846 0)
+			(at 63.5 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2230,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 76.2)
+		(at 63.5 76.2)
 		(size 35.56 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2253,7 +2247,7 @@
 		)
 		(uuid "e3dab0b8-42bf-48dc-b104-bdc70861b3a4")
 		(property "Sheetname" "MCU"
-			(at 83.82 75.4884 0)
+			(at 63.5 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2256,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 83.82 112.3446 0)
+			(at 63.5 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2265,7 @@
 			)
 		)
 		(pin "USBD+" bidirectional
-			(at 83.82 109.22 180)
+			(at 63.5 109.22 180)
 			(uuid "3bdb8934-f1e7-4482-91ee-7922091783d7")
 			(effects
 				(font
@@ -2281,7 +2275,7 @@
 			)
 		)
 		(pin "USBD-" bidirectional
-			(at 83.82 106.68 180)
+			(at 63.5 106.68 180)
 			(uuid "3ec962b7-d3c9-4205-a07c-d6519a38d50c")
 			(effects
 				(font
@@ -2291,7 +2285,7 @@
 			)
 		)
 		(pin "CODEC_~{RST}" output
-			(at 119.38 78.74 0)
+			(at 99.06 78.74 0)
 			(uuid "1ff068d4-6df6-495c-9e5a-e08031b3d969")
 			(effects
 				(font
@@ -2301,7 +2295,7 @@
 			)
 		)
 		(pin "I2S_ADC" input
-			(at 119.38 88.9 0)
+			(at 99.06 88.9 0)
 			(uuid "95282d46-eba1-4164-b007-cfd161de1fd7")
 			(effects
 				(font
@@ -2311,7 +2305,7 @@
 			)
 		)
 		(pin "I2S_SCLK" output
-			(at 119.38 91.44 0)
+			(at 99.06 91.44 0)
 			(uuid "507635e5-8cc4-4006-b38d-a65f87c3b321")
 			(effects
 				(font
@@ -2321,7 +2315,7 @@
 			)
 		)
 		(pin "I2S_DAC" output
-			(at 119.38 96.52 0)
+			(at 99.06 96.52 0)
 			(uuid "4852f63d-973f-4102-94a5-0782e1682795")
 			(effects
 				(font
@@ -2331,7 +2325,7 @@
 			)
 		)
 		(pin "I2S_LRCK" output
-			(at 119.38 93.98 0)
+			(at 99.06 93.98 0)
 			(uuid "e6dff045-eed1-4760-b8c3-661ffbbaf59c")
 			(effects
 				(font
@@ -2341,7 +2335,7 @@
 			)
 		)
 		(pin "MCLK" output
-			(at 119.38 86.36 0)
+			(at 99.06 86.36 0)
 			(uuid "3907d3fb-2b36-4566-903d-7261aa04c411")
 			(effects
 				(font
@@ -2351,7 +2345,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 119.38 106.68 0)
+			(at 99.06 106.68 0)
 			(uuid "ab05ac54-1da0-47c4-8e5d-f3f894863c89")
 			(effects
 				(font
@@ -2361,7 +2355,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 119.38 109.22 0)
+			(at 99.06 109.22 0)
 			(uuid "b48519c9-7d9f-4a9f-9909-a2170e999513")
 			(effects
 				(font
