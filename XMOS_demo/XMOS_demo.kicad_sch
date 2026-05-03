@@ -731,16 +731,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 157.48) (xy 213.36 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca3a131-73a5-41af-8f30-0d1b33997803")
-	)
-	(wire
-		(pts
 			(xy 182.88 78.74) (xy 213.36 78.74)
 		)
 		(stroke
@@ -1925,19 +1915,9 @@
 				(justify right)
 			)
 		)
-		(pin "VQ2" input
+		(pin "VQ2_3" input
 			(at 167.64 154.94 0)
 			(uuid "05b0dcf1-f884-4132-9a6c-f5d6ad0673d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VQ3" input
-			(at 167.64 157.48 0)
-			(uuid "9ac6e9e3-4ad6-4dd0-bae6-5e4ce4d81ca0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,19 +2088,9 @@
 				(justify left)
 			)
 		)
-		(pin "VQ2" output
+		(pin "VQ2_3" output
 			(at 213.36 154.94 180)
-			(uuid "99a23298-4170-4072-acc6-d88c71f8db34")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VQ3" output
-			(at 213.36 157.48 180)
-			(uuid "2aa51ad4-a747-41ec-8003-7e4720dcbdc5")
+			(uuid "deb8621d-a349-400f-b89d-2fe9ea7fb370")
 			(effects
 				(font
 					(size 1.27 1.27)

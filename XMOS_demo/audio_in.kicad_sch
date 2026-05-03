@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "8f75bdef-e3d5-4b19-b075-e3aa4d91d115")
 	(paper "A4")
+	(title_block
+		(date "2026-03-29")
+		(rev "0.1")
+		(company "AGH University")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA340NA"
 			(pin_names
@@ -1065,12 +1070,6 @@
 		(uuid "6536e19f-148e-4e88-8769-0f401239554e")
 	)
 	(junction
-		(at 185.42 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fb0a7b9-9987-4d54-a891-d02be036a12f")
-	)
-	(junction
 		(at 144.78 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1397,16 +1396,6 @@
 			(type default)
 		)
 		(uuid "4add5b69-b9f1-440e-8433-9d4a0ced5818")
-	)
-	(wire
-		(pts
-			(xy 185.42 119.38) (xy 193.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1a3c3d-3ebf-4a2e-896f-09ced52a7b7b")
 	)
 	(wire
 		(pts
@@ -1868,7 +1857,7 @@
 		)
 		(uuid "c8c261a6-b1b8-45ff-944b-9ccb0a0cc3ec")
 	)
-	(hierarchical_label "VQ2"
+	(hierarchical_label "VQ2_3"
 		(shape output)
 		(at 193.04 83.82 0)
 		(effects
@@ -1878,17 +1867,6 @@
 			(justify left)
 		)
 		(uuid "14b76abd-e3c5-4fc8-a9e0-336d875bd4e9")
-	)
-	(hierarchical_label "VQ3"
-		(shape output)
-		(at 193.04 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36bb3a4c-32b7-4ad4-8936-95ae01fd5d52")
 	)
 	(hierarchical_label "AIN_B"
 		(shape output)
