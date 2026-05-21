@@ -747,6 +747,10 @@
     [
       "71bec83b-8ae1-4f4c-8273-5b8329c1423c",
       "Audio In"
+    ],
+    [
+      "743d39d7-addd-4319-9e96-2bb2c2d7c5c3",
+      "I2S_Confing"
     ]
   ],
   "text_variables": {}

@@ -8827,7 +8827,7 @@
 		)
 		(uuid "fc798a38-0b3f-448d-80bd-4a9e18a4140e")
 	)
-	(label "MCLK"
+	(label "MCLK_OUT"
 		(at 167.64 172.72 0)
 		(effects
 			(font
@@ -8847,7 +8847,7 @@
 		)
 		(uuid "18c6d868-bbd6-4410-8d71-9c6552e3b67d")
 	)
-	(label "I2S_SCLK"
+	(label "I2S_SCLK_OUT"
 		(at 167.64 170.18 0)
 		(effects
 			(font
@@ -8907,7 +8907,7 @@
 		)
 		(uuid "29ebb830-1010-4f56-aca1-7bf44cdab74d")
 	)
-	(label "I2S_LRCK"
+	(label "I2S_LRCK_OUT"
 		(at 167.64 165.1 0)
 		(effects
 			(font
@@ -8957,7 +8957,7 @@
 		)
 		(uuid "4560f538-3bdb-4ef0-b3f5-13744670cb85")
 	)
-	(label "I2S_DAC"
+	(label "I2S_DAC_OUT"
 		(at 167.64 162.56 0)
 		(effects
 			(font
@@ -9194,7 +9194,7 @@
 		)
 		(uuid "eb0fef9a-5be3-4784-b1e5-832cebd422d9")
 	)
-	(label "I2S_ADC"
+	(label "I2S_ADC_IN"
 		(at 167.64 160.02 0)
 		(effects
 			(font
@@ -9215,7 +9215,7 @@
 		)
 		(uuid "efc63ff3-9ee0-42e3-a053-b6b248e4d7f2")
 	)
-	(hierarchical_label "I2S_SCLK"
+	(hierarchical_label "I2S_SCLK_OUT"
 		(shape output)
 		(at 165.1 170.18 180)
 		(effects
@@ -9237,7 +9237,7 @@
 		)
 		(uuid "2904e0ed-a5bd-4bae-a6c9-ba4f0e27876d")
 	)
-	(hierarchical_label "I2S_DAC"
+	(hierarchical_label "I2S_DAC_OUT"
 		(shape output)
 		(at 165.1 162.56 180)
 		(effects
@@ -9248,7 +9248,7 @@
 		)
 		(uuid "2d5889d5-5802-4611-ac4d-f9ea79ed62cc")
 	)
-	(hierarchical_label "I2S_LRCK"
+	(hierarchical_label "I2S_LRCK_OUT"
 		(shape output)
 		(at 165.1 165.1 180)
 		(effects
@@ -9270,7 +9270,7 @@
 		)
 		(uuid "41495163-753f-4a5b-b444-6aaa2283c1e6")
 	)
-	(hierarchical_label "MCLK"
+	(hierarchical_label "MCLK_OUT"
 		(shape output)
 		(at 165.1 172.72 180)
 		(effects
@@ -9303,7 +9303,7 @@
 		)
 		(uuid "b1c5bf19-f96c-4c1e-a6ab-217d2dae6984")
 	)
-	(hierarchical_label "I2S_ADC"
+	(hierarchical_label "I2S_ADC_IN"
 		(shape input)
 		(at 165.1 160.02 180)
 		(effects
