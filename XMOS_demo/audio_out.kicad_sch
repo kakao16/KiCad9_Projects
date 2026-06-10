@@ -3613,7 +3613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0352152f-62a9-470f-b3d7-7c8baace2aae")
-		(property "Reference" "C42"
+		(property "Reference" "C49"
 			(at 161.544 67.31 0)
 			(effects
 				(font
@@ -3685,7 +3685,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C42")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3700,7 +3700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0416c84e-ea13-4edc-89ff-48aadae1ebd6")
-		(property "Reference" "C44"
+		(property "Reference" "C40"
 			(at 88.138 72.39 90)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C44")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1006bea9-cc0a-452e-99e4-3091207326d1")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR069"
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR065")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3860,7 +3860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1125c215-c784-46bb-b5eb-b6c8ef8442ba")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR062"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -3910,7 +3910,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR070")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3926,7 +3926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26d50a91-ae2b-4caa-b897-58897fbfb227")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR059"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -3976,7 +3976,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR062")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fc02801-3fba-454d-89a5-2745b71d7c52")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 137.16 89.916 90)
 			(effects
 				(font
@@ -4158,7 +4158,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4173,7 +4173,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3f966c4d-c2b3-47dd-a673-b55bc1b8cc20")
-		(property "Reference" "C48"
+		(property "Reference" "C42"
 			(at 88.138 89.916 90)
 			(effects
 				(font
@@ -4253,7 +4253,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C48")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4268,7 +4268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45a03247-fce1-45bd-a455-f0d950d12051")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR061"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -4318,7 +4318,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR069")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4333,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "45e3b58f-96a1-4369-9bac-e36bd3343c19")
-		(property "Reference" "C47"
+		(property "Reference" "C45"
 			(at 105.918 87.376 90)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C47")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4524,7 +4524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5806d2de-4016-453a-941b-4639e4114bf3")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR060"
 			(at 50.8 105.41 0)
 			(effects
 				(font
@@ -4574,7 +4574,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR064")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4590,7 +4590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61195a3f-b90d-4a84-88af-01765b8b15f2")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR066"
 			(at 167.64 64.77 0)
 			(effects
 				(font
@@ -4640,7 +4640,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR060")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4655,7 +4655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63d14a48-afc2-4799-b1f8-e3dab267893a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 139.7 57.15 0)
 			(effects
 				(font
@@ -4705,7 +4705,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4720,7 +4720,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "67b396bd-2692-4e18-ba0f-0a9e586c4f24")
-		(property "Reference" "C49"
+		(property "Reference" "C46"
 			(at 105.918 92.456 90)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C49")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -4815,7 +4815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bee073b-7242-46ac-9713-f9b347400e7c")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 229.616 91.44 0)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f4dd6a3-d284-47ef-aee3-3ddb3f4f1fc0")
-		(property "Reference" "R35"
+		(property "Reference" "R40"
 			(at 136.398 57.404 0)
 			(effects
 				(font
@@ -4949,7 +4949,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R35")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -4964,7 +4964,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "76268b57-f405-4b1f-9116-dda90fb6339e")
-		(property "Reference" "C46"
+		(property "Reference" "C41"
 			(at 88.138 84.836 90)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C46")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5059,7 +5059,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7bfe9210-971a-4dea-b9cd-f479f53a0ed7")
-		(property "Reference" "R40"
+		(property "Reference" "R42"
 			(at 218.694 98.044 0)
 			(effects
 				(font
@@ -5111,7 +5111,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R40")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -5220,7 +5220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "882a1eed-fa07-494a-8198-23fc229c94b3")
-		(property "Reference" "C41"
+		(property "Reference" "C48"
 			(at 151.384 67.31 0)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C41")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5402,7 +5402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cfe55ec-845a-42cb-9dbc-7320f9ca4985")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 132.08 87.376 90)
 			(effects
 				(font
@@ -5454,7 +5454,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d4fd8f-4b57-4e0c-be11-e6d424c8c3b1")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a34696bc-4847-4d2e-8577-28e1fcf29494")
-		(property "Reference" "C52"
+		(property "Reference" "C51"
 			(at 192.024 113.03 0)
 			(effects
 				(font
@@ -5606,7 +5606,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C52")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -5621,7 +5621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3c7769d-2cac-43a0-b93e-f9077ccc0ec4")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 137.16 84.836 90)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf8f6391-5362-4361-ae81-5bd40171087b")
-		(property "Reference" "R39"
+		(property "Reference" "R37"
 			(at 132.08 92.456 90)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R39")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2d259de-9773-413c-bb6a-aeb0ddacce78")
-		(property "Reference" "C40"
+		(property "Reference" "C47"
 			(at 141.224 67.31 0)
 			(effects
 				(font
@@ -5827,7 +5827,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C40")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -5938,7 +5938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd06dd59-197f-49a9-8a64-990b705e4360")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 41.91 88.8999 0)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6019,7 +6019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3041ae2-3de3-43a4-b4e0-44ff0f54d442")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6f2c376-a88d-48df-b47c-3da4035bc263")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -6135,7 +6135,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6150,7 +6150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9e43e13-2613-4eeb-af6a-1e1cb3b35b77")
-		(property "Reference" "C51"
+		(property "Reference" "C50"
 			(at 192.024 97.79 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C51")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -6370,7 +6370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb678d36-7f74-404c-943f-4d1f082c220b")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR070"
 			(at 223.52 95.25 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR063")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6435,7 +6435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4c5163e-6e4c-4605-8851-6dbd79daffff")
-		(property "Reference" "C45"
+		(property "Reference" "C44"
 			(at 105.918 74.93 90)
 			(effects
 				(font
@@ -6515,7 +6515,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C45")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -6530,7 +6530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe6cfab7-f4c5-4199-bd09-c3f231cbedfb")
-		(property "Reference" "C50"
+		(property "Reference" "C52"
 			(at 202.184 92.71 0)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "C50")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6617,7 +6617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff7ff76d-4d68-4116-89ce-93909509e810")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 190.5 125.73 0)
 			(effects
 				(font
@@ -6667,7 +6667,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

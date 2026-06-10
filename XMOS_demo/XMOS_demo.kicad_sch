@@ -838,7 +838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b0240b2-cc67-4954-89c0-c93a74c1a1db")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 231.14 82.296 90)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1696,7 +1696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f71a4b8d-384d-494f-bfe6-38cf15ff2181")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 238.76 79.756 90)
 			(effects
 				(font
@@ -1748,7 +1748,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
