@@ -118,131 +118,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -428,19 +303,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: add optional low pass filter"
-		(exclude_from_sim no)
-		(at 233.68 69.85 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "ee622789-d259-4b76-8a8d-0802f08a2451")
-	)
 	(junction
 		(at 55.88 129.54)
 		(diameter 0)
@@ -461,7 +323,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 152.4) (xy 247.65 152.4)
+			(xy 193.04 152.4) (xy 220.98 152.4)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +363,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 78.74) (xy 228.6 78.74)
+			(xy 193.04 78.74) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
@@ -521,7 +383,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 154.94) (xy 247.65 154.94)
+			(xy 193.04 154.94) (xy 220.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -581,7 +443,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 109.22) (xy 236.22 109.22)
+			(xy 193.04 109.22) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -611,23 +473,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 228.6 83.82)
+			(xy 193.04 83.82) (xy 220.98 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "484ad4b9-44cb-40b5-bfbf-0c219b030ad5")
-	)
-	(wire
-		(pts
-			(xy 241.3 86.36) (xy 247.65 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca1f127-e897-4951-ad8b-083987c64636")
 	)
 	(wire
 		(pts
@@ -661,7 +513,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 236.22 81.28)
+			(xy 193.04 81.28) (xy 220.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -671,33 +523,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 81.28) (xy 247.65 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7742735c-28f2-4e8a-80a0-f4d104ddedc4")
-	)
-	(wire
-		(pts
-			(xy 193.04 86.36) (xy 236.22 86.36)
+			(xy 193.04 86.36) (xy 220.98 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8656bde4-77eb-4129-a269-5c480266dfd3")
-	)
-	(wire
-		(pts
-			(xy 241.3 109.22) (xy 247.65 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87444161-2137-4c0f-bab4-05eae5c5f061")
 	)
 	(wire
 		(pts
@@ -721,7 +553,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 147.32) (xy 247.65 147.32)
+			(xy 193.04 147.32) (xy 220.98 147.32)
 		)
 		(stroke
 			(width 0)
@@ -751,16 +583,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 83.82) (xy 247.65 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa771f4-26b7-489d-ba90-573a1b2f3555")
-	)
-	(wire
-		(pts
 			(xy 144.78 88.9) (xy 154.94 88.9)
 		)
 		(stroke
@@ -768,16 +590,6 @@
 			(type default)
 		)
 		(uuid "c2f3e7ec-cd00-498c-8e7a-6b74f368ece8")
-	)
-	(wire
-		(pts
-			(xy 233.68 78.74) (xy 247.65 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca27bbd1-5acf-4b2d-ac57-57e61c26c095")
 	)
 	(wire
 		(pts
@@ -811,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 144.78) (xy 247.65 144.78)
+			(xy 193.04 144.78) (xy 220.98 144.78)
 		)
 		(stroke
 			(width 0)
@@ -828,73 +640,6 @@
 			(type default)
 		)
 		(uuid "fca824be-4d65-4255-88b3-6a1b4decc63e")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 231.14 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b0240b2-cc67-4954-89c0-c93a74c1a1db")
-		(property "Reference" "R2"
-			(at 231.14 82.296 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 231.14 83.82 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abb5def5-7f5c-453d-b935-2ac1ff9cee77")
-		)
-		(pin "2"
-			(uuid "125a55a5-7bf5-4218-abda-70bed98cfd18")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -1228,140 +973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeca1d51-4f6b-4020-856d-e9a434c604eb")
-		(property "Reference" "R5"
-			(at 238.76 107.696 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 238.76 109.22 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b70f221-d94e-4675-bc0c-16b5b53edba7")
-		)
-		(pin "2"
-			(uuid "2425d1e8-2b3a-4a68-b8ae-1d3474006677")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 231.14 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "affbe436-7c47-476f-b868-ca33d77526fb")
-		(property "Reference" "R1"
-			(at 231.14 77.216 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 231.14 78.74 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 231.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32a5a6c6-1fc5-4c78-ab97-49dd709a4e84")
-		)
-		(pin "2"
-			(uuid "df4e37e2-f723-49f2-a97e-f2169b0468c8")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 35.56 127 0)
 		(unit 1)
@@ -1557,73 +1168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e11fb76a-6d7b-4691-a52c-99f2b9b1cec0")
-		(property "Reference" "R4"
-			(at 238.76 84.836 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 238.76 86.36 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6d04b32-3476-4319-8a1e-62e57977a4ae")
-		)
-		(pin "2"
-			(uuid "7a110409-1dda-4df7-9c68-c3ed0d51b9a5")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 86.36 144.78 0)
 		(unit 1)
@@ -1682,73 +1226,6 @@
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f71a4b8d-384d-494f-bfe6-38cf15ff2181")
-		(property "Reference" "R3"
-			(at 238.76 79.756 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 238.76 81.28 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 238.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c7e0c10-9941-456f-89a2-5c8830f19376")
-		)
-		(pin "2"
-			(uuid "4e488a81-fe26-48c1-be0b-cdb8e91fa53c")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2074,7 +1551,7 @@
 		)
 	)
 	(sheet
-		(at 247.65 124.46)
+		(at 220.98 124.46)
 		(size 30.48 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2091,7 +1568,7 @@
 		)
 		(uuid "71bec83b-8ae1-4f4c-8273-5b8329c1423c")
 		(property "Sheetname" "Audio In"
-			(at 247.65 123.7484 0)
+			(at 220.98 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +1577,7 @@
 			)
 		)
 		(property "Sheetfile" "audio_in.kicad_sch"
-			(at 247.65 160.6046 0)
+			(at 220.98 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +1586,7 @@
 			)
 		)
 		(pin "AIN_A" output
-			(at 247.65 144.78 180)
+			(at 220.98 144.78 180)
 			(uuid "cab7eb18-24e9-4b01-a560-6575d359fcdf")
 			(effects
 				(font
@@ -2119,7 +1596,7 @@
 			)
 		)
 		(pin "AIN_B" output
-			(at 247.65 147.32 180)
+			(at 220.98 147.32 180)
 			(uuid "4c5f4509-647d-446a-8a2b-8dc8daea92ff")
 			(effects
 				(font
@@ -2129,7 +1606,7 @@
 			)
 		)
 		(pin "VQ1" input
-			(at 247.65 152.4 180)
+			(at 220.98 152.4 180)
 			(uuid "84ce411e-7484-4905-911b-1bda4b9f45d1")
 			(effects
 				(font
@@ -2139,7 +1616,7 @@
 			)
 		)
 		(pin "VQ2_3" output
-			(at 247.65 154.94 180)
+			(at 220.98 154.94 180)
 			(uuid "deb8621d-a349-400f-b89d-2fe9ea7fb370")
 			(effects
 				(font
@@ -2300,7 +1777,7 @@
 		)
 	)
 	(sheet
-		(at 247.65 76.2)
+		(at 220.98 76.2)
 		(size 30.48 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2317,7 +1794,7 @@
 		)
 		(uuid "82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca")
 		(property "Sheetname" "Audio Out"
-			(at 247.65 75.4884 0)
+			(at 220.98 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +1803,7 @@
 			)
 		)
 		(property "Sheetfile" "audio_out.kicad_sch"
-			(at 247.65 112.3446 0)
+			(at 220.98 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,9 +1811,9 @@
 				(justify left top)
 			)
 		)
-		(pin "INL+" input
-			(at 247.65 78.74 180)
-			(uuid "9d03005d-179c-4326-9f62-522bfffd6028")
+		(pin "OUT_A+" input
+			(at 220.98 78.74 180)
+			(uuid "c5965c05-088b-4b8b-b85e-148949b9f102")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,9 +1821,9 @@
 				(justify left)
 			)
 		)
-		(pin "INL-" input
-			(at 247.65 81.28 180)
-			(uuid "a2990cbf-a116-45d5-9d11-80473d225327")
+		(pin "OUT_B+" input
+			(at 220.98 83.82 180)
+			(uuid "34146265-8ede-49bc-af79-c7d5566097f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,9 +1831,9 @@
 				(justify left)
 			)
 		)
-		(pin "INR+" input
-			(at 247.65 83.82 180)
-			(uuid "3575b2e3-0d9f-4e7e-836c-f64a4ccded59")
+		(pin "OUT_A-" input
+			(at 220.98 81.28 180)
+			(uuid "923e2687-0c54-4f88-86d3-56c2a4ed9feb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,9 +1841,9 @@
 				(justify left)
 			)
 		)
-		(pin "INR-" input
-			(at 247.65 86.36 180)
-			(uuid "d7328daa-9147-43fc-a5a8-38d7aac5739a")
+		(pin "OUT_B-" input
+			(at 220.98 86.36 180)
+			(uuid "e44dbadf-1870-4f25-8d83-f6da8c2d2d75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,9 +1851,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{SHDN}" input
-			(at 247.65 109.22 180)
-			(uuid "9ebddc6f-e012-4aa8-9a07-066ab20321c7")
+		(pin "~{MUTE}" input
+			(at 220.98 109.22 180)
+			(uuid "380624e1-f7ac-49ac-89ee-a4db5c8e3738")
 			(effects
 				(font
 					(size 1.27 1.27)

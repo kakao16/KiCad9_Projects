@@ -7,6 +7,7 @@
 	(title_block
 		(title "USB Sound Card I2S Configuration")
 		(date "2026-06-10")
+		(rev "0.1")
 		(company "AGH University")
 	)
 	(lib_symbols
@@ -1494,7 +1495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "140adf26-24cb-4092-a92a-a7f0021c0479")
-		(property "Reference" "JP3"
+		(property "Reference" "JP5"
 			(at 85.09 101.6001 90)
 			(effects
 				(font
@@ -1551,7 +1552,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP3")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20341363-52cd-42cb-95b1-51cae7ab0555")
-		(property "Reference" "JP7"
+		(property "Reference" "JP4"
 			(at 118.11 76.2001 90)
 			(effects
 				(font
@@ -1623,7 +1624,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP7")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -1638,7 +1639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "316973b1-41a1-42cd-8ef7-e9c0123afc9f")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0112"
 			(at 193.04 123.19 0)
 			(effects
 				(font
@@ -1688,7 +1689,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "#PWR0103")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1704,7 +1705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3281fe05-18a9-4a02-939d-5aa8226f8777")
-		(property "Reference" "JP5"
+		(property "Reference" "JP9"
 			(at 85.09 152.4001 90)
 			(effects
 				(font
@@ -1761,7 +1762,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP5")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3315671a-6ea7-4a2e-a2bd-995b504e37d4")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0109"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -1826,7 +1827,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "#PWR0100")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -1914,7 +1915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e987d1b-1df6-423c-8b1a-c052945c697b")
-		(property "Reference" "JP4"
+		(property "Reference" "JP7"
 			(at 85.09 127.0001 90)
 			(effects
 				(font
@@ -1971,7 +1972,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP4")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d4bde8f-c58b-4e12-ba8d-4cd889428677")
-		(property "Reference" "JP6"
+		(property "Reference" "JP2"
 			(at 118.11 50.8001 90)
 			(effects
 				(font
@@ -2043,7 +2044,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP6")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2059,7 +2060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fa5a14a-d1f6-456a-ab61-1f672657938f")
-		(property "Reference" "JP2"
+		(property "Reference" "JP3"
 			(at 85.09 76.2001 90)
 			(effects
 				(font
@@ -2116,7 +2117,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -2131,7 +2132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ae31851-48ba-4ca6-bb6b-5fef3eab2233")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0111"
 			(at 175.26 123.19 0)
 			(effects
 				(font
@@ -2181,7 +2182,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "#PWR0101")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7c916dd-7398-4c62-8ae1-ede6c19dff44")
-		(property "Reference" "JP9"
+		(property "Reference" "JP8"
 			(at 118.11 127.0001 90)
 			(effects
 				(font
@@ -2359,7 +2360,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e954a7d4-4d18-44f5-baf4-c6045ef14bb7")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0110"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -2603,7 +2604,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "#PWR0102")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2618,7 +2619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4188846-a451-468f-ac5d-a71a2437200c")
-		(property "Reference" "JP8"
+		(property "Reference" "JP6"
 			(at 118.11 101.6001 90)
 			(effects
 				(font
@@ -2675,7 +2676,7 @@
 		(instances
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/743d39d7-addd-4319-9e96-2bb2c2d7c5c3"
-					(reference "JP8")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
