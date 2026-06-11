@@ -8887,6 +8887,16 @@
 		)
 		(uuid "216c39a7-7310-4a04-bcad-d91437add78f")
 	)
+	(label "LED1"
+		(at 250.19 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22f1b7d5-795f-45ae-bc29-bb724f6bfa96")
+	)
 	(label "XTAG_TCK"
 		(at 132.08 218.44 0)
 		(effects
@@ -8927,7 +8937,7 @@
 		)
 		(uuid "35b545d9-0b78-438f-af1c-ace84cfd2437")
 	)
-	(label "LED1"
+	(label "LED3"
 		(at 218.44 154.94 180)
 		(effects
 			(font
@@ -8947,7 +8957,7 @@
 		)
 		(uuid "3f2e55d2-753f-4dce-a2df-f53922e33440")
 	)
-	(label "LED2"
+	(label "LED1"
 		(at 218.44 157.48 180)
 		(effects
 			(font
@@ -9020,16 +9030,6 @@
 		(uuid "6ed6f199-4ecc-4c84-b14f-0c44a24aa10a")
 	)
 	(label "LED2"
-		(at 257.81 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70f78749-c284-47d6-aae6-6a7e4160af92")
-	)
-	(label "LED3"
 		(at 218.44 160.02 180)
 		(effects
 			(font
@@ -9048,16 +9048,6 @@
 			(justify left bottom)
 		)
 		(uuid "7d31a9f7-8ab1-41b6-aaab-e35bf0f1867c")
-	)
-	(label "LED3"
-		(at 250.19 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81a4aed7-4c37-4f4c-af4f-307484b4c025")
 	)
 	(label "XTAG_RST_N"
 		(at 132.08 215.9 0)
@@ -9079,6 +9069,16 @@
 			(justify right bottom)
 		)
 		(uuid "87ff7428-113b-4ea3-9b5c-771eda7cd9e9")
+	)
+	(label "LED2"
+		(at 257.81 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "887f08b4-cba7-485a-a758-a25b9bb328d0")
 	)
 	(label "XTAG_TDI"
 		(at 132.08 220.98 0)
@@ -9163,7 +9163,7 @@
 		)
 		(uuid "c9782f86-d52f-42aa-948e-6a600a60bae3")
 	)
-	(label "LED1"
+	(label "LED3"
 		(at 265.43 154.94 180)
 		(effects
 			(font
