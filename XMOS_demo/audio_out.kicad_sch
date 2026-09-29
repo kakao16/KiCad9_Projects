@@ -1845,12 +1845,6 @@
 		(uuid "ac64348e-7c67-489d-af7a-5351e6416dc3")
 	)
 	(junction
-		(at 182.88 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad05b3b2-45fb-42ac-ac1c-edcb6cbc9945")
-	)
-	(junction
 		(at 185.42 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2386,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.84) (xy 175.26 116.84)
+			(xy 162.56 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3046,16 +3040,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 114.3) (xy 182.88 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0337b19-640c-46c9-9c5e-11bb55b5fe15")
-	)
-	(wire
-		(pts
 			(xy 144.78 144.78) (xy 157.48 144.78)
 		)
 		(stroke
@@ -3083,16 +3067,6 @@
 			(type default)
 		)
 		(uuid "c1bb10d7-0e96-474e-87f5-0bc27d5a3561")
-	)
-	(wire
-		(pts
-			(xy 182.88 106.68) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c264e6e0-e1ac-4df4-b1ad-ffd2fbf906d9")
 	)
 	(wire
 		(pts
@@ -3356,16 +3330,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 182.88 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22420d2-071c-4648-88c2-2b34c339f9c6")
-	)
-	(wire
-		(pts
 			(xy 119.38 66.04) (xy 119.38 68.58)
 		)
 		(stroke
@@ -3396,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 116.84) (xy 190.5 116.84)
+			(xy 170.18 116.84) (xy 190.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3553,6 +3517,16 @@
 			(justify right bottom)
 		)
 		(uuid "4a95be93-8ccf-4f2c-b051-5e4c192636d0")
+	)
+	(label "AMP_~{SHDN}"
+		(at 177.8641 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed704f4-259c-43c9-ad43-c2ed71d5b09c")
 	)
 	(label "OUT_B_FLT-"
 		(at 66.04 129.54 180)
@@ -3900,7 +3874,7 @@
 	)
 	(hierarchical_label "~{MUTE}"
 		(shape input)
-		(at 172.72 116.84 180)
+		(at 162.56 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6599,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 177.8 116.84 90)
+		(at 167.64 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6607,7 +6581,7 @@
 		(dnp no)
 		(uuid "aeca1d51-4f6b-4020-856d-e9a434c604eb")
 		(property "Reference" "R40"
-			(at 177.8 115.316 90)
+			(at 167.64 115.316 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6615,7 +6589,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 177.8 116.84 90)
+			(at 167.64 116.84 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6623,7 +6597,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 116.84 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 116.84 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6615,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 177.8 116.84 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,6 +6787,73 @@
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 71.12 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4429deb-2c1c-4b7d-babb-2c38d0cd9aa2")
+		(property "Reference" "R31"
+			(at 70.866 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 71.628 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b1d54b2-56c1-4e18-b2d4-bd6c36ed5e05")
+		)
+		(pin "2"
+			(uuid "6bab9901-40c3-40c8-bd38-77bdb3f5e251")
+		)
+		(instances
+			(project "XMOS_demo"
+				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7043,72 +7084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_power:P_AMP_SUPPLY")
-		(at 182.88 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f2c376-a88d-48df-b47c-3da4035bc263")
-		(property "Reference" "#PWR070"
-			(at 182.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P_AMP_SUPPLY"
-			(at 182.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"P_AMP_SUPPLY\""
-			(at 182.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a124a56-9d42-45c2-a194-0f75e08d3d05")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 226.06 99.06 0)
 		(unit 1)
@@ -7285,140 +7260,6 @@
 			(project "XMOS_demo"
 				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 182.88 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "dcd9c4b1-e527-4c6a-bcf8-1b6f35bb8869")
-		(property "Reference" "R41"
-			(at 185.928 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 185.928 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 182.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edba2532-5349-4ba5-bfd0-1539d83b5251")
-		)
-		(pin "2"
-			(uuid "d7319368-b217-41bf-be03-b49e6fb157db")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 71.12 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0ea98e5-09f6-43e3-a0c3-dfc84d381e5a")
-		(property "Reference" "R31"
-			(at 70.866 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 71.628 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metri"
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e48fbcdf-62d4-4175-8c21-6e0b951cb1e8")
-		)
-		(pin "2"
-			(uuid "5549eb0f-564a-4fb4-9d52-deeb212bb0ea")
-		)
-		(instances
-			(project "XMOS_demo"
-				(path "/0a855fb0-ca19-4770-811e-70d8770d7fdd/82ce7187-f0cb-4a8a-9f6c-b1803f49d1ca"
-					(reference "R31")
 					(unit 1)
 				)
 			)

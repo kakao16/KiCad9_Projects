@@ -316,6 +316,12 @@
 		(uuid "39982e22-0945-4076-87ce-5ecbb0f75569")
 	)
 	(junction
+		(at 187.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84bd93cf-ab9c-4c66-b195-cc3753e3d782")
+	)
+	(junction
 		(at 27.94 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -360,6 +366,16 @@
 			(type default)
 		)
 		(uuid "07ce8e5c-9f19-4be3-8351-e79425179d14")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 248.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d41add7-d536-45e5-9d29-68e61a83973a")
 	)
 	(wire
 		(pts
@@ -433,13 +449,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 248.92 109.22)
+			(xy 175.26 109.22) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32e1aa84-b624-479e-88d0-87683a0a7c35")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ce11e7-8af4-4480-b828-486bf4c27350")
 	)
 	(wire
 		(pts
@@ -550,6 +576,16 @@
 			(type default)
 		)
 		(uuid "97a94dcc-5f9a-45c1-8dd6-6869dbbba879")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99637c68-7ce5-4f08-99f5-8e4782a29851")
 	)
 	(wire
 		(pts
@@ -1592,7 +1628,7 @@
 	)
 	(sheet
 		(at 195.58 76.2)
-		(size 31.75 12.7)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1617,7 +1653,7 @@
 			)
 		)
 		(property "Sheetfile" "out_filter.kicad_sch"
-			(at 195.58 89.4846 0)
+			(at 195.58 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,6 +1739,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{MUTE}" input
+			(at 195.58 99.06 180)
+			(uuid "ddc82b7d-34c2-45cb-b561-635fbdd658c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
