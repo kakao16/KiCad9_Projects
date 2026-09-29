@@ -1,0 +1,260 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "52c3bb0e-4f34-42e3-a602-0765e9597455")
+	(paper "A4")
+	(title_block
+		(rev "0.1")
+		(company "AGH University")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 209.55 71.12) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba13506-752c-4fee-80c2-62a8d600a1ad")
+	)
+	(wire
+		(pts
+			(xy 209.55 68.58) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38549215-b296-4d06-a541-f0d2f83606ae")
+	)
+	(wire
+		(pts
+			(xy 209.55 111.76) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d36321d-cf7a-4274-b266-6bcfe1a8b512")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e20253-4b84-4474-ae7d-2cc64aecd4e4")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d008549-5797-4449-87f6-1e69c67a8a03")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e7649e-865b-40c7-ab24-8d1feac16d97")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a153e4d2-d503-4423-bd44-9f9a1afc4549")
+	)
+	(wire
+		(pts
+			(xy 124.46 109.22) (xy 101.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb616f0c-731d-4dd6-908a-77d4cd0492ca")
+	)
+	(label "OUT_A+"
+		(at 121.92 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bf799ed-d2b2-4ea1-abf3-3bbff8138b8e")
+	)
+	(label "OUT_B_FLT+"
+		(at 203.2 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "288a7a68-85f5-4542-acd2-9cc834a9f284")
+	)
+	(label "OUT_A_FLT-"
+		(at 203.2 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31be4d64-7153-46ef-9f91-fc28db4f18cb")
+	)
+	(label "OUT_B_FLT-"
+		(at 203.2 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "604dfeb3-3f36-433c-a0b7-79a38464c488")
+	)
+	(label "OUT_A_FLT+"
+		(at 203.2 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8624a59c-44aa-425c-8be9-7be6fb0ad045")
+	)
+	(label "OUT_B-"
+		(at 121.92 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "909366b6-bcbb-45fe-b94a-3f5aadd51d89")
+	)
+	(label "OUT_B+"
+		(at 121.92 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aad4c590-4808-4c11-b6f3-a14785b6b265")
+	)
+	(label "OUT_A-"
+		(at 121.92 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d845f7d7-d0e5-4c8c-a93e-a07c2a888fa1")
+	)
+	(hierarchical_label "OUT_B_FLT+"
+		(shape output)
+		(at 209.55 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "036fb397-3448-43a3-b4fc-751e4d15c325")
+	)
+	(hierarchical_label "OUT_A_FLT+"
+		(shape output)
+		(at 209.55 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07a926fc-d952-4efd-91f0-9e8445434a85")
+	)
+	(hierarchical_label "OUT_A-"
+		(shape input)
+		(at 101.6 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21c1b568-5674-4107-a5ff-aa665d857b37")
+	)
+	(hierarchical_label "OUT_A+"
+		(shape input)
+		(at 101.6 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ee521b5-5d44-4ebe-925a-1739b70f9220")
+	)
+	(hierarchical_label "OUT_A_FLT-"
+		(shape output)
+		(at 209.55 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f4f5b11-93c2-4853-9d0a-65955f2748e9")
+	)
+	(hierarchical_label "OUT_B-"
+		(shape input)
+		(at 101.6 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1591ccc-0457-4572-802f-87eb1695bf15")
+	)
+	(hierarchical_label "OUT_B_FLT-"
+		(shape output)
+		(at 209.55 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5ec18f8-d546-4a0c-acb8-50b95462c584")
+	)
+	(hierarchical_label "OUT_B+"
+		(shape input)
+		(at 101.6 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f17a485f-e37e-486a-90fe-17e82096f215")
+	)
+)
