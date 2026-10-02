@@ -63,7 +63,32 @@
           "width": 0.158
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|108155000|76525000|2e9de210-0a2f-4e36-83c0-4e202e0cfd58|db61d566-f1ee-4c4e-880c-548956a76abd",
+          ""
+        ],
+        [
+          "courtyards_overlap|117606599|76525000|a41ef6b1-0ded-4102-bdce-2aa75e8d26b7|c3676115-dbe8-4451-bf48-a9af32b774d2",
+          ""
+        ],
+        [
+          "courtyards_overlap|132455000|72725000|496791ed-2bc1-41e5-8da5-f7442360fd73|b9db4fab-a16a-4c18-be8e-fb6c7ef001c3",
+          ""
+        ],
+        [
+          "courtyards_overlap|141706600|72725000|419add8a-8fb3-4c6f-9c3e-fb129c91c949|9a3dcda7-3690-412f-9538-61942a341da0",
+          ""
+        ],
+        [
+          "starved_thermal|136400000|111712500|8dabe37d-0eed-427c-bc17-04a45d91b609|a4eb44b4-d01f-4bbe-90e3-8e573cd3ae8b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|137050000|111712500|8dabe37d-0eed-427c-bc17-04a45d91b609|4eec8721-88d4-4059-acb6-aa2ea383eadd|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -109,7 +134,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -130,20 +155,20 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.1,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 4,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.1,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.254,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
@@ -231,15 +256,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
+          "diameter": 0.45,
           "drill": 0.2
         },
         {
-          "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.6,
+          "diameter": 0.65,
           "drill": 0.4
         }
       ],
@@ -493,7 +514,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -510,7 +531,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -518,7 +539,7 @@
         "track_width": 0.381
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.203,
         "diff_pair_width": 0.158,
         "name": "USB",
